@@ -1,0 +1,87 @@
+:root{
+    --background: rgb(253, 232, 238);
+    --darkpurp: rgb(109, 84, 109);
+    --lightpurp: rgb(143, 115, 143);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+body{
+    height: 100vh;
+    background-color: var(--background);
+}
+td,th{
+    border: 2px var(--background) solid;
+    background-color: var(--darkpurp);
+    margin: 1px;
+    padding: 4px 15px;
+    color: var(--background);
+}
+table{
+    border: 2px black solid;
+    background-color: var(--lightpurp);
+    margin: 40px auto;
+}
+article{
+    font-size: 140%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+p,h1{
+    margin: 15px;
+}
+p{
+    text-indent: 20px;
+    letter-spacing: 0.75px;
+    line-height: 120%;
+}
+aside{
+    background-color: var(--lightpurp);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;*/
+} 
+form{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 120%;
+    color: var(--background);
+}
+input{
+    margin-bottom: 5px;
+    background-color: var(--background);
+    border: none;
+}
+
+input[type="text"]{
+    height: 25px;
+}
+
+button{
+    width: 50%;
+    margin: 5px auto;
+    background-color: var(--background);
+    font-size: 105%;
+    border: none;
+}
+footer{
+    background-color: var(--darkpurp);
+    color: var(--background);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
