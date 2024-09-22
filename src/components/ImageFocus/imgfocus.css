@@ -1,0 +1,90 @@
+.imageFocus{
+    background-color: #00000099;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#veryBadDivV{
+    height: 85%;
+    position: relative;
+}
+#veryBadDivH{
+    width: 85%;
+    position: relative;
+}
+
+.imageH{
+    z-index: 2;
+    width: 100%;
+}
+.imageV{
+    z-index: 2;
+    height: 100%;
+}
+
+#arrowRight{
+    height: 0;
+    width: 0;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 3vw solid black;
+    margin-left: 0px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#arrowRight:hover{
+    opacity: 75%;
+}
+
+#arrowLeft{
+    height: 0;
+    width: 0;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-right: 3vw solid black;
+    margin-right: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#arrowLeft:hover{
+    opacity: 75%;
+}
+
+#jestemZłymBardzoBardzoZłymPrzyciskiem{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: large;
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgba(173, 216, 230, 0.568);
+    opacity: 80%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#jestemZłymBardzoBardzoZłymPrzyciskiem:hover{
+    opacity: 95%;
+}
+
+#jestemZłymBardzoBardzoZłymPrzyciskiem:active{
+    opacity: 50%;
+}
+
+#imageText{
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+    background-color: aliceblue;
+    opacity: 55%;
+    padding: 5px;
+    border-radius: 0 8px 8px 0;
+    filter: blur(10%);
+}

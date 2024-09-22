@@ -1,0 +1,20 @@
+.imageFrame{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.imageFrame:hover{
+    filter: brightness(110%);
+}
+
+.horizontalImage{
+    height: 100%;
+}
+.verticalImage{
+    width: 100%
+}
